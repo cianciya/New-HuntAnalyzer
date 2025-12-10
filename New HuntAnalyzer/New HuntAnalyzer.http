@@ -1,0 +1,6 @@
+@New_HuntAnalyzer_HostAddress = http://localhost:5146
+
+GET {{New_HuntAnalyzer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
