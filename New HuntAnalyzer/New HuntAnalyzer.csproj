@@ -23,10 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Dominio\Dominio.csproj" />
     <ProjectReference Include="..\Infraestrutura\Infraestrutura.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Servico\Servico.csproj" />
   </ItemGroup>
 
 </Project>

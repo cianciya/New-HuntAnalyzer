@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New HuntAnalyzer", "New HuntAnalyzer\New HuntAnalyzer.csproj", "{40F64551-DBE9-4EEB-90E0-0F00C45CB759}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestrutura", "Infraestrutura\Infraestrutura.csproj", "{52645646-12A7-43B3-983F-32C5A169EFFB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{92C421E7-8CE3-426E-9B8C-48F5C3F341B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servico", "Servico\Servico.csproj", "{4481A0A4-0D8D-4D18-8A8C-A6348BB958A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{92C421E7-8CE3-426E-9B8C-48F5C3F341B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92C421E7-8CE3-426E-9B8C-48F5C3F341B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92C421E7-8CE3-426E-9B8C-48F5C3F341B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4481A0A4-0D8D-4D18-8A8C-A6348BB958A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4481A0A4-0D8D-4D18-8A8C-A6348BB958A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4481A0A4-0D8D-4D18-8A8C-A6348BB958A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4481A0A4-0D8D-4D18-8A8C-A6348BB958A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,5 +49,6 @@ Global
 		{40F64551-DBE9-4EEB-90E0-0F00C45CB759} = {55C969B1-B726-4C51-90AC-B3E870C1440D}
 		{52645646-12A7-43B3-983F-32C5A169EFFB} = {9D81F2CE-98CA-4BC0-9BD9-C9F0CF32BFF5}
 		{92C421E7-8CE3-426E-9B8C-48F5C3F341B1} = {78DEEF9B-2ACA-4A4B-9FD2-428752E033F6}
+		{4481A0A4-0D8D-4D18-8A8C-A6348BB958A4} = {C9ED39E5-9529-49EF-972F-BA01AEA59FC1}
 	EndGlobalSection
 EndGlobal

@@ -13,6 +13,7 @@ namespace Dominio.Entidade.Cacada
     public class Hunt : EntidadeBase
     {
         public string? Nome { get; set; }
+        public string? Cidade { get; set; }
 
         // Relacionamento com o usuário dono da Hunt
         public int UsuarioSistameGuid { get; set; }
